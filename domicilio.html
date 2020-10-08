@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bar Maite Aupa Erreala</title>
+  <link rel="icon" type="image/png" href="/img/real.png" />
+	<link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed " id="movb" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <img src="./img/real.png" alt="" width="80" height="80" >
+      <ul class="nav navbar-nav">
+        <li><a href="./index.html" class="page-scroll"><b>INICIO</b></a></li>
+        <li><a href="./carta.html" class="page-scroll"><b>CARTA</b></a></li>
+        <li><a href="./historia.html" class="page-scroll"><b>HISTORIA</b></a></li>
+        <li><a href="./domicilio.html" class="page-scroll"><b>A DOMICILIO</b></a></li>
+        <li><a href="./contacto.html" class="page-scroll"><b>CONTACTO</b></a></li>
+      </ul>
+      </div>
+    </div>
+    </div>
+</nav
+<header id="header">
+  <div class="intro">
+      <div class="container">
+        
+        <div class="row">
+          <div class="intro-text">
+            <h1>Bar <span>M</span>aite</h1>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--form erabiliz eskakizuna egiteko formulario bat sortu dugu
+  radio: Aukera botoiak erabiltzen dira erabiltzailea aukeraketa bakar batera mugatu nahi baduzu.
+  button_submit: botoia adierazten du, sakatzean, inprimakia dagokion helbidera bidaltzen du.
+  button_reset: botoia adierazten du, sakatzean inprimakia eremu guztiak leheneratzen ditu.
+  text: Testu kaxa bat sortzen du.
+  -->
+  
+  <div class="container">
+		<div class="form__top">
+			<h2>Zure eskakizuna <span>Egin</span></h2>
+		</div>		
+		<form class="form__reg" action="">
+			<input class="input" type="text" placeholder="&#128100;  Nombre" required autofocus>
+            <input class="input" type="email" placeholder="&#9993;  Email" required>
+            <input class="input" type="text" placeholder="&#128222;  Telefono" required>
+            <input class="input" type="text" placeholder="&#8962;  Dirección" required>
+            <input class="input" type="text" placeholder="&#127789;  Su pedido" required>
+            <div class="btn__form">
+              <p> Nola ordainduko duzu eskakizuna?</p>
+              <input type="radio" id="efectivo" name="money" value="efectivo">
+              <label for="efectivo"> &#128181; Efectivo euros</label><br>
+              <input type="radio" id="tarjeta" name="money" value="tarjeta">
+              <label for="Visa">&#128179; Visa,Mastercard,Etc</label><br>
+              <input type="radio" id="other" name="money" value="paypal">
+              <label for="paypal"> &#128187;Paypal</label><br>
+              <p>Zure eskakizuna laister nahi duzu?, zure kasua ez bada ordu bat adierazi.</p>
+              <input type="radio" id="bai" name="ordua" value="ez">
+              <label for="ez">Bai</label><br>
+              <input type="radio" id="ez" name="ordua" value="ez">
+              <label for="ez">Ez	</label><br>
+              <input class="input" type="text" placeholder="&#128349; Ze ordutan nahi duzu?" required><br>
+            	<input class="btn__submit" type="submit" value="PEDIR">
+            	<input class="btn__reset" type="reset" value="BORRAR">
+              
+            </div>
+		</form>
+	</div>
+  <div id="footer"> 
+  <div class="container text-center">
+    <div class="col-md-6">
+      <p>&copy; 2020 Bar maite. Todos los derechos reservados Diseñado por <a href="https://E1P1.carlossilva19.repl.co" rel="nofollow">Team AEG</a></p>
+    </div>
+    <div class="col-md-6">
+      <!--Sare sozial botoiak partekatzeko linkarekin eta bere irudiarekin-->
+      <div id="share-buttons">
+        
+    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+    </a>
+ 
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//e1p1.carlossilva19.repl.co">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=mira%20mi%20pagina%20https%3A//e1p1.carlossilva19.repl.co">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+
+        <a href="tel:+34678567876">
+        <img src="./img/telefono.png"width="9%" alt="telefono">
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=mira%20mi%20pagina%20https%3A//e1p1.carlossilva19.repl.co">
+    
+</div>
+    </div>
+  </div>
+</div>
+<!-- javascript scriptak nav botoia ondo funtzionatzeko eta segun ze gailu azkarrago edo motelago mugituko da orria.-->
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+<footer id>
+</html>

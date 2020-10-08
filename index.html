@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head><!-- esto es la cabeza donde estan linkeados los css, el titulo de la pagina y el favicon. -->
+	<meta charset="utf-8" <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bar Maite Aupa Erreala</title>
+  <link rel="icon" type="image/png" href="/img/real.png" />
+	<link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<!--Page top: Orria behera joaten denean nav ez da goian geratzen eta behera joaten da.
+  data-spy: scroll https://getbootstrap.com/docs/4.0/components/scrollspy/
+  data-target .navbar-fixed-top:https://getbootstrap.com/docs/4.0/components/navbar/-->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!--Botoi hau orria txikia egiten duzunean orria responsive denez botoi bat agertzen da eta botoi hori sakatzean nav agertuko zaizu-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed " id="movb" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <img src="./img/real.png" alt="" width="80" height="80" >
+      <ul class="nav navbar-nav">
+        <!--Hau nav lista da eta page-scroll propietatea erabiliz behera joango da erabiltzaileak behera joaten denean-->
+        <li><a href="./index.html" class="page-scroll"><b>INICIO</b></a></li>
+        <li><a href="./carta.html" class="page-scroll"><b>CARTA</b></a></li>
+        <li><a href="./historia.html" class="page-scroll"><b>HISTORIA</b></a></li>
+        <li><a href="./domicilio.html" class="page-scroll"><b>A DOMICILIO</b></a></li>
+        <li><a href="./contacto.html" class="page-scroll"><b>CONTACTO</b></a></li>
+      </ul>
+      </div>
+    </div>
+    </div>
+</nav
+<header id="header">
+  <div class="intro">
+    <!--Hemen bootstrapen grid funtzioa hasten da, lehengo container, gero row kaxa bat egiteko eta col kaxak zatitzeko. Horrela erabiltzen da. https://getbootstrap.com/docs/4.0/layout/grid/-->
+      <div class="container"
+        <div class="row">
+          <div class="intro-text">
+            </br>
+            <h1>Bar <span>M</span>aite</h1>
+             
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="features" class="text-center">
+  <div class="container">
+    <div class="section-title">
+      <h2>Conoce nuestras virtudes</h2>
+    </div>
+    <div class="row">
+      <!--col funtzioak segun ze tamaina nahi duzun 5 tamaina klase dauzka:
+      .col-: Txikiagoa <576px
+      .col-sm-: col txikia 540pxko tamaina dauka.
+      .col-med-: col ertaina 720px tamaina dauka.
+      .col-lg-: col handia 960pxk tamaina dauka.
+      -col-xl: col handiena 1140px tamaina dauka
+      Adibidez gure orria mobilentzako pentsatuta dago printzipioz.
+      https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp--> 
+      <div class="col-xs-12 col-sm-4">
+        <div class="features-item">
+          <h3>Nuestra barra</h3>
+          <p>Tenemos diversidad de pintxos, tapas y tortillas para que no te canses .</p>
+          <!--Img-responsive Responsive Irudiak automatikoki egokitzen dira pantailaren tamainara.-->
+          <img src="./img/barra.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="features-item">
+          <h3>Nuestro Ambiente</h3>
+          <p><a href="https://www.vinoseleccion.com/txakoli-itsasmendi-7-2017?gclid=EAIaIQobChMI75nWs_ii7AIVUud3Ch2fqgHEEAQYASABEgKcIPD_BwE">Txakoli 1€</a></p>
+
+           <img src="img/barra3.jpg" class="img-responsive" alt="">
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+        <div class="features-item">
+          <h3>Nuestro menú especial</h3>
+          <p>Si eres una persona indecisa este es tu menú, este menú es simple y esta basado en los platos más pedidos de nuestra carta por lo que la calidad esta asegurada.</p>
+          <img src="img/oferta.jpg" class="img-responsive" alt="">
+           </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+  
+  </div>
+</body>
+<!-- text-center erabiliz ez duzu text-alin jarri behar CSS Dokumentuan, kaxa dagoen testu denak zentratuak egongo dira.-->
+  <div id="footer"> 
+  <div class="container text-center">
+    <div class="col-md-6">
+      <p>&copy; 2020 Bar maite. Todos los derechos reservados Diseñado por <a href="https://E1P1.carlossilva19.repl.co" rel="nofollow">Team AEG</a></p>
+    </div>
+    <div class="col-md-6">
+      <!--Sare sozial botoiak partekatzeko linkarekin eta bere irudiarekin-->
+      <div id="share-buttons">
+        
+    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+    </a>
+ 
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//e1p1.carlossilva19.repl.co">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=mira%20mi%20pagina%20https%3A//e1p1.carlossilva19.repl.co">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+
+        <a href="tel:+34678567876">
+        <img src="./img/telefono.png"width="9%" alt="telefono">
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=mira%20mi%20pagina%20https%3A//e1p1.carlossilva19.repl.co">
+    
+</div>
+    </div>
+  </div>
+</div>
+<!-- javascript scriptak nav botoia ondo funtzionatzeko eta segun ze gailu azkarrago edo motelago mugituko da orria.-->
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+<footer id>
+</html>
